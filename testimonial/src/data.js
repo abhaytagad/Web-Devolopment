@@ -1,0 +1,53 @@
+const reviews = [
+  {
+    id: 7,
+    name: "Abhay Tagad",
+    job: "MERN Stack Developer",
+    image: "data:image/jpeg;base64,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",
+    text: "I'm a Frontend Web Developer, I mastered HTML, and CSS, and am a beginner in JavaScript, and Tailwind CSS. I can convert your design into pixel perfect frontend website. I provide well-structured, valid, adaptive, featured, clean, readable, and maintainable code.",
+  },
+  {
+    id: 1,
+    name: "Priyansh Patel",
+    job: "MERN Stack Developer",
+    image: "https://avatars.githubusercontent.com/u/93965871?s=96&v=4",
+    text: "I'm a Frontend Web Developer, I mastered HTML, and CSS, and am a beginner in JavaScript, and Tailwind CSS. I can convert your design into pixel perfect frontend website. I provide well-structured, valid, adaptive, featured, clean, readable, and maintainable code.",
+  },
+  {
+    id: 2,
+    name: "Abir Pal",
+    job: "Graphic Designer",
+    image: "https://aeccc.targettechnology.in/static/media/AbirPal.574a09ad7cb325853b29.jpg",
+    text: "I have been working with this company for several years now, and I have always been impressed with their creativity and attention to detail. They are true professionals who take pride in their work and always go above and beyond to deliver exceptional results.",
+  },
+  {
+    id: 3,
+    name: "Soumya Banerjee",
+    job: "Marketing Manager",
+    image: "https://aeccc.targettechnology.in/static/media/SoumyaBanerjee.2e2521d6029842435080.jpg",
+    text: "I am thrilled with the results of our recent marketing campaign, and it wouldn't have been possible without the hard work and dedication of the entire team. Thank you for your exceptional work!",
+  },
+  {
+    id: 4,
+    name: "Saikat Mukherjee",
+    job: "Content Strategist",
+    image: "https://aeccc.targettechnology.in/static/media/SaikatMukherjee.033310703edff52d0532.jpg",
+    text: "I have worked with many content creators over the years, but none have impressed me as much as this team. They have a knack for crafting compelling and engaging content that resonates with our audience and drives real results. I highly recommend them!",
+  },
+  {
+    id: 5,
+    name: "Aritra Biswas",
+    job: "Data Analyst",
+    image: "https://avatars.githubusercontent.com/u/93366359?v=4",
+    text: "I had the opportunity to work with this team on a data analysis project, and I was impressed with their attention to detail and their ability to work with complex datasets. They provided valuable insights that helped us make informed business decisions. It was a pleasure working with them.",
+  },
+  {
+    id: 6,
+    name: "Pranay Gupta",
+    job: "Software Engineer",
+    image: "https://aeccc.targettechnology.in/static/media/PranayGupta.f3c530b7630ba8efb2ab.jpg",
+    text: "I have had the pleasure of working with this team on several projects, and I am consistently impressed with their technical expertise and ability to deliver quality solutions on time and within budget. They are a true partner and an asset to any project.",
+  },
+];
+
+export default reviews;

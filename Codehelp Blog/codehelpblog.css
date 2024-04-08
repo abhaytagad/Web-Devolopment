@@ -1,0 +1,280 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100vw;
+    height: 150vh;
+    display: grid;
+    row-gap: 5px;
+    column-gap: 5px;
+    justify-content: center;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+.item{
+    margin: 10px;    
+    border-radius: 10px;
+}
+.header{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.i1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 10px 10px 10px black;
+}
+.i1 img{
+    border-radius: 10px;
+    width: 300px;
+}
+.i1 img:hover{
+    transform: scale(1.1);
+}
+.i11{
+    display: flex;
+    height: 40px;
+    border-radius: 10px;
+    align-items: center;
+    gap: 50px;
+    
+}
+.i111{
+    display: flex;
+    border-radius: 10px;
+    gap: 20px;
+    
+}
+.i1111 img{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    align-items: center;
+}
+.i1112{
+    text-align: center;
+}
+.i2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 10px 10px 10px black;
+}
+.i2 img{
+    border-radius: 10px;
+}
+.i2 img:hover{
+    transform: scale(1.1);
+}
+.i2 p{
+    text-align: center;
+}
+.i21{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.i211{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.i211 img{
+    height: 30px;
+}
+.i3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 10px 10px 10px black;
+}
+.i3 img{
+    border-radius: 10px;
+}
+.i3 img:hover{
+    transform: scale(1.1);
+}
+.i31{
+    display: flex;
+    height: 20px;
+    align-items: center;
+    gap: 50px;
+}
+.i311{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.i311 img{
+    height: 30px;
+}
+
+.i4{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 10px 10px 10px black;
+
+}
+.i4 img{
+    border-radius: 10px;
+}
+.i4 img:hover{
+    transform: scale(1.1);
+}
+.i41{
+    display: flex;
+    gap: 50px;
+    height: 30px;
+    align-items: center;
+}
+.i41 img{
+    height: 30px;
+}
+.i411{
+    display: flex;
+    height: 30px;
+    gap: 20px;
+    align-items: center;
+}
+.i5{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 10px 10px 10px black;
+
+}
+.i5 img{
+    border-radius: 10px;
+    height: 198px;
+}
+.i5 img:hover{
+    transform: scale(1.1);
+}
+.i51{
+    display: flex;
+    gap: 50px;
+    height: 30px;
+    align-items: center;
+}
+.i51 img{
+    height: 30px;
+    
+}
+.i511{
+    display: flex;
+    height: 30px;
+    gap: 20px;
+    align-items: center;
+}
+.i6{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 10px 10px 10px black;
+
+}
+.i6 img{
+    border-radius: 10px;
+}
+.i6 img:hover{
+    transform: scale(1.1);
+}
+.i61{
+    display: flex;
+    gap: 50px;
+    height: 30px;
+    align-items: center;
+}
+.i61 img{
+    height: 30px;
+}
+.i611{
+    display: flex;
+    height: 30px;
+    gap: 20px;
+    align-items: center;
+}
+.i7{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 10px 10px 10px black;
+
+}
+.i7 img{
+    border-radius: 10px;
+    height: 200px;
+}
+.i7 img:hover{
+    transform: scale(1.1);
+}
+.i71{
+    display: flex;
+    gap: 50px;
+    height: 30px;
+    align-items: center;
+}
+.i71 img{
+    height: 30px;
+}
+.i711{
+    display: flex;
+    height: 30px;
+    gap: 20px;
+    align-items: center;
+}
+.i8{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 10px 10px 10px black;
+
+}
+.i8 img{
+    border-radius: 10px;
+    height: 200px;
+}
+.i8 img:hover{
+    transform: scale(1.1);
+}
+.i81{
+    display: flex;
+    gap: 50px;
+    height: 30px;
+    align-items: center;
+}
+.i81 img{
+    height: 30px;
+}
+.i811{
+    display: flex;
+    height: 30px;
+    gap: 20px;
+    align-items: center;
+}
